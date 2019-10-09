@@ -49,7 +49,7 @@
 				<div class="col-5">
 					<form action="" method="get">
 						<div class="d-flex">
-							<input name="url" type="text" class="form-control" placeholder="page url"> value="<?php echo $url ?>">
+							<input name="url" type="text" class="form-control" placeholder="page url" value="<?php echo $url ?>">
 							<button class="btn btn-primary ml-2">></button>
 						</div>
 					</form>
