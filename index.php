@@ -53,7 +53,7 @@
 							<button class="btn btn-primary ml-2">></button>
 						</div>
 					</form>
-					<span class="btn btn-primary refresh-all mt-2">Refresh</span>
+					<span class="btn btn-primary refresh-all mt-2">Refresh (ctrl)</span>
 				</div>
 				<div class="col-auto">
 					<div>
