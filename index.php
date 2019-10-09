@@ -67,11 +67,11 @@
 			</div>
 
 			<div class="row">
-				<div class="col-auto" v-show="shows.laptop">
+				<div class="col-auto" v-if="shows.laptop">
 					<h4 class="mb-3">Laptop</h4>
 					<iframe id="laptop" width="1366" height="768" src="<?php echo $url; ?>" frameborder="0"></iframe>
 				</div>
-				<div class="col-auto" v-show="shows.mobile">
+				<div class="col-auto" v-if="shows.mobile">
 					<div class="d-flex align-items-center mb-3">
 						<h4>iPhone 8</h4>
 						<svg class="ml-3 rotate" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -87,7 +87,7 @@
 
 					<iframe id="mobile" width="375" height="667" src="<?php echo $url; ?>" frameborder="0"></iframe>
 				</div>
-				<div class="col-auto" v-show="shows.tablet">
+				<div class="col-auto" v-if="shows.tablet">
 					<div class="d-flex align-items-center mb-3">
 						<h4>Tablet</h4>
 						<svg class="ml-3 rotate" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
