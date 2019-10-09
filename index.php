@@ -152,9 +152,19 @@
 
 					function refreshAll() {
 						$('iframe').each(function(){
-							$(this).attr('src', $(this).attr('src'))
+							var myIframe = $(this);
+							var scroll = myIframe.contents().scrollTop()
+
+							$(this).attr('src', $(this).attr('src'));
+
+							$(this).on('load', function(){
+								myIframe.contents().scrollTop(scroll)
+							});
 						})
 					}
+
+
+
 
 					
 
