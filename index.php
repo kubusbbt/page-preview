@@ -134,9 +134,9 @@
 
 					$(window).keydown(function(event) {
 
-						if( event.keyCode === 17 ){
-							refreshAll();
-						}
+// 						if( event.keyCode === 17 ){
+// 							refreshAll();
+// 						}
 
 						if( event.keyCode === 116 ){
 							event.preventDefault();
